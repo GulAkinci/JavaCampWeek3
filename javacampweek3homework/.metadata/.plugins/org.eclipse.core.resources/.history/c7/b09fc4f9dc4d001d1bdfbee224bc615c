@@ -1,0 +1,12 @@
+package inheritenceDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		OgretmenKrediManager ogretmenKrediManager = new OgretmenKrediManager();
+        TarımKrediManager tarımKrediManager =new TarımKrediManager();
+        ogretmenKrediManager.Hesapla();
+        tarımKrediManager.Hesapla();
+	}
+
+}

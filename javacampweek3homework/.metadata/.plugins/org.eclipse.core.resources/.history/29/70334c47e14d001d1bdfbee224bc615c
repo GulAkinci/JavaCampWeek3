@@ -1,0 +1,13 @@
+package polymorphismDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+	  EmailLogger logger = new EmailLogger();
+	  logger.Log(" log mesajı");
+	  DatabaseLogger dataBaseLogger  = new DataBaseLogger();
+	  dataBaseLogger.Log("database mesajı");
+
+	}
+
+}

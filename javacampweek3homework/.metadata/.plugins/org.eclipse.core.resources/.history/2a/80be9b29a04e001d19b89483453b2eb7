@@ -1,0 +1,9 @@
+package interfaceDemo;
+
+public class Worker implements Iworkable{
+	@Override
+	public void work() {
+		
+	}
+
+}
